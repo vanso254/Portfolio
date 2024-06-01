@@ -15,7 +15,7 @@
           };
 
           // Send the form data using EmailJS
-          emailjs.send('service_mhl6dq5', 'template_9wz9ovl', formData)
+          emailjs.send('service_ef61w8i', 'template_9wz9ovl', formData)
              .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
                 swal({
